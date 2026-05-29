@@ -1,0 +1,10 @@
+name = "llm_client"
+version = "0.1.0"
+description = "A Gleam client for generating and streaming text from LLM providers."
+licences = ["MIT"]
+
+[dependencies]
+gleam_stdlib = ">= 1.0.0 and < 2.0.0"
+
+[dev_dependencies]
+gleeunit = ">= 1.0.0 and < 2.0.0"
